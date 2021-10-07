@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #1f4037; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1f4037, #99f2c8); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1f4037, #99f2c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Gemunu Libre', sans-serif;
+    color:white;
+    font-size:15px;
+}
+.container{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 25%;
+    min-width: 290px;
+    text-align: center;
+}
+.title{
+    margin-top: 5%;
+    text-align: center;
+    color: white;
+}
+.form{
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size:25px;
+}
+input,textarea::placeholder{
+    color:#99f2c8;
+    background-color:black;
+}
+.btn-send{
+    background-color: black;
+    color:aliceblue;
+    margin: 2% 0;
+    padding: 1ex 1pc;
+    border: 1px solid #99f2c8;
+    border-radius: 3%;
+    cursor: pointer;
+}
+.subject,#texto{
+    color:#99f2c8;
+    background-color:black;
+}
+
+.message{
+    margin-bottom: 10%;
+}

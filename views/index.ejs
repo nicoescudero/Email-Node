@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/style.css">
+    <title>EmailWEB</title>
+</head>
+<body>
+    <div class="container">
+        <h3 class="title">Nodemailer</h3>
+        <br>
+        <form class="form" method="post" action="/send">
+            <h6>Name</h6>
+            <input type="text" placeholder="My Name" name="name">
+            <h6>My Email</h6>
+            <input type="text" placeholder="Email" name="email">
+            <h6>Recipient Email</h6>
+            <input type="text" placeholder="Enter recipient email" name="R_email">
+            <h6>Subject</h6>
+            <input type="text" class="subject" name="subject">
+            <h6>Message</h6>
+            <textarea name="text" id="texto" cols="30" rows="10"></textarea>
+            <button type="submit" class="btn btn-send">SEND</button>    
+        </form>
+    </div>
+    </body>
+</html>
