@@ -15,9 +15,6 @@ app.use('/public',express.static(path.join(__dirname, 'public')));
 app.get('/',(req,res)=>{
     res.render('index');
 });
-app.get('/rta',(req,res)=>{
-    res.render('rta');
-})
 
 app.post('/send',async(req,res)=>{
     const {name,email,R_email,subject,text}=req.body;
